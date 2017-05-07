@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "types" : ["mocha"],
+        "outDir": "./dist/all",
+        "typeRoots" : ["./typings"]
+    },
+    "compileOnSave": false,
+    "exclude": [
+        "node_modules"
+    ]
+}
